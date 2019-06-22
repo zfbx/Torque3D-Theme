@@ -1,0 +1,626 @@
+//-------------------------- 6/22/2019 -- 00:56:42 -----
+Processor Init:
+   Unknown x86 Compatible, ~3.21 Ghz
+   HT detected
+   MP detected [6 cores, 12 logical, 1 physical]
+ 
+Math Init:
+   Installing Standard C extensions
+   Installing Assembly extensions
+ 
+Initializing platform...
+Input Init:
+
+Done
+DebugDrawer Enabled!
+GFX Init:
+   Null device found
+   Direct 3D (version 11.x) device found
+   OpenGL device found
+
+GFXStringEnumTranslate: Unassigned value in GFXStringTextureFormat: 20
+Console trace disabled.
+
+--------- Initializing Directory: scripts ---------
+
+--------- Initializing vSide: Server Scripts ---------
+C:/Users/Tony/Documents
+
+--------- Initializing vSide: Client Scripts ---------
+C:/Users/Tony/Documents
+Warning, overwriting material for: BLACK
+Warning, overwriting material for: FULL128X128G
+Warning, overwriting material for: PILLAR128X128G
+C:/Users/Tony/Documents
+
+--------- Parsing Arguments ---------
+Attempting to create GFX device: NVIDIA GeForce GTX 1070 Ti (D3D11) []
+Device created, setting adapter and enumerating modes
+Hardware occlusion query detected: Yes
+WMIVideoInfo: DxDiag initialized
+Initializing GFXCardProfiler (Direct3D11)
+   o Chipset : 'NVIDIA'
+   o Card    : 'NVIDIA GeForce GTX 1070 Ti'
+   o Version : ''
+   o VRAM    : 8080 MB
+   - Scanning card capabilities...
+GFXCardProfiler (Direct3D11) - Setting capability 'maxTextureWidth' to 16384.
+GFXCardProfiler (Direct3D11) - Setting capability 'maxTextureHeight' to 16384.
+GFXCardProfiler (Direct3D11) - Setting capability 'maxTextureSize' to 16384.
+   - Loading card profiles...
+--------------
+Attempting to set resolution to "1024 768 false 32 60 4"
+Accepted Mode: 
+--Resolution : 1024 768
+--Full Screen : No
+--Bits Per Pixel : 32
+--Refresh Rate : 60
+--AA TypeXLevel : 4
+--------------
+
+sfxStartup...
+SFXSystem::createDevice - created OpenAL device 'OpenAL Soft'
+   Provider: OpenAL
+   Device: OpenAL Soft
+   Hardware: No
+   Max Buffers: 16
+ 
+UDP initialized on ipv4 IP:0.0.0.0:62708
+
+--------- Initializing MainEditor ---------
+Module Manager: Cannot load explicit module Id 'Tools_ObjectViewer' as it does not exist.
+--------------
+Attempting to set resolution to "1024 768 false 32 60 4"
+Accepted Mode: 
+--Resolution : 1024 768
+--Full Screen : No
+--Bits Per Pixel : 32
+--Refresh Rate : 60
+--AA TypeXLevel : 4
+--------------
+Activating Input...
+C:/Users/Tony/Documents
+[Win32FileSystemChangeNotifier::internalAddNotification] : failed on [C:\Development\Torque4.0Preview\My Projects\vSide\game\art\shapes\VervePathTutorial] [3]
+Resource<TSShape>::create - Error reading 'art/shapes/VervePathTutorial/Door.dae'
+Failed to create resource: [art/shapes/VervePathTutorial/Door.dae]
+data/Verve/scripts/server/vervePathTutorialData.cs (24): preload failed for VervePathTutorial_DoorData: ShapeBaseData: Couldn't load shape "art/shapes/VervePathTutorial/Door.dae".
+[Win32FileSystemChangeNotifier::internalAddNotification] : failed on [C:\Development\Torque4.0Preview\My Projects\vSide\game\art\shapes\VervePathTutorial] [3]
+Resource<TSShape>::create - Error reading 'art/shapes/VervePathTutorial/ElevatorPlatform.dae'
+Failed to create resource: [art/shapes/VervePathTutorial/ElevatorPlatform.dae]
+data/Verve/scripts/server/vervePathTutorialData.cs (0): preload failed for VervePathTutorial_ElevatorPlatformData: ShapeBaseData: Couldn't load shape "art/shapes/VervePathTutorial/ElevatorPlatform.dae".
+
+Initializing Lighting Systems
+C:/Users/Tony/Documents
+--------------
+Attempting to set resolution to "1024 768 false 32 60 4"
+Accepted Mode: 
+--Resolution : 1024 768
+--Full Screen : No
+--Bits Per Pixel : 32
+--Refresh Rate : 60
+--AA TypeXLevel : 4
+--------------
+Engine initialized...
+Window focus status changed: focus: 1
+AntiAliasing has been disabled; it is not compatible with AdvancedLighting.
+ % - Initializing Tools
+Missing file: tools/gui/postFxManager.gui!
+ % - Initializing Tools Base
+ % - Initializing Base Editor
+ % - Initializing World Editor
+ % - Initializing Asset Browser
+Missing file: tools/assetBrowser/guis/importTemplateModules.gui!
+Missing file: tools/componentEditor/scripts/stateMachineEditor.ed.cs!
+Missing file: tools/componentEditor/gui/stateMachineDlg.ed.gui!
+ % - Initializing Sketch Tool
+Missing file: tools/convexEditor/materials.cs!
+ - Initializing Datablock Editor
+ % - Initializing Debugger
+ % - Initializing Decal Editor
+ % - Initializing Forest Editor
+ % - Initializing Gui Editor
+ % - Initializing Material Editor
+Missing file: tools/materialEditor/gui/materialInstancesView.ed.gui!
+Missing file: tools/materialEditor/scripts/materialInstanceView.ed.cs!
+ % - Initializing Mesh Road Editor
+ % - Initializing Mission Area Editor
+ % - Initializing Navigation Editor
+SimObject::linkNamespaces -- Namespace linkage already in place NavEditorConsoleListener
+ % - Initializing Particle Editor
+ % - Initializing Physics Tools
+No physics plugin exists.
+ % - Initializing River Editor
+ - Initializing Road and Path Editor
+ % - Initializing Shape Editor
+Missing file: tools/Controller/main.cs!
+Missing file: tools/Events/main.cs!
+Missing file: tools/Groups/main.cs!
+Missing file: tools/Inspector/main.cs!
+Missing file: tools/Fields/main.cs!
+Missing file: tools/Tracks/main.cs!
+Missing file: tools/Torque/main.cs!
+Module Manager: Found module: 'C:/Development/Torque4.0Preview/My Projects/vSide/game/tools/Tools.module' but it is in a module group 'tools' which has already been loaded.
+Module Manager: Found module: 'C:/Development/Torque4.0Preview/My Projects/vSide/game/tools/MainEditor/MainEditor.module' but it is in a module group 'tools' which has already been loaded.
+Module Manager: Found module: 'C:/Development/Torque4.0Preview/My Projects/vSide/game/tools/Tools.module' but it is in a module group 'tools' which has already been loaded.
+Module Manager: Found module: 'C:/Development/Torque4.0Preview/My Projects/vSide/game/tools/MainEditor/MainEditor.module' but it is in a module group 'tools' which has already been loaded.
+Module Manager: Cannot load group 'tools' as it is already loaded.
+Failed to load profile bitmap (tools/gui/menubar)
+GuiBitmapBorderCtrl: Could not construct bitmap array for profile 'ToolsGuiGroupBorderProfile'
+GuiBitmapBorderCtrl: Could not construct bitmap array for profile 'ToolsGuiGroupBorderProfile'
+GFXTextureManager::_lookupTexture: Cached texture tools/worldEditor/images/lockedHandle has a different profile flag
+GFXTextureManager::_lookupTexture: Cached texture tools/worldEditor/images/lockedHandle has a different profile flag
+ % - Initializing Tools
+tools/gui/cursors.ed.cs (23): Cannot re-declare object [LeftRightCursor].
+tools/gui/cursors.ed.cs (30): Cannot re-declare object [UpDownCursor].
+tools/gui/cursors.ed.cs (37): Cannot re-declare object [NWSECursor].
+tools/gui/cursors.ed.cs (44): Cannot re-declare object [NESWCursor].
+tools/gui/cursors.ed.cs (51): Cannot re-declare object [MoveCursor].
+tools/gui/cursors.ed.cs (0): Cannot re-declare object [TextEditCursor].
+tools/gui/saveChangesMBDlg.ed.gui (2): Cannot re-declare object [MessageBoxSaveChangesDlg].
+tools/gui/simViewDlg.ed.gui (2): Cannot re-declare object [simViewDlg].
+tools/gui/colorPicker.ed.gui (2): Cannot re-declare object [ColorPickerDlg].
+tools/gui/materialSelector.ed.gui (1): Cannot re-declare object [MaterialSelectorOverlay].
+tools/gui/materialSelector.ed.gui (645): Cannot re-declare object [MaterialSelectorPerMan].
+tools/gui/materialSelector.ed.gui (647): Cannot re-declare object [UnlistedMaterials].
+tools/gui/scriptEditorDlg.ed.gui (2): Cannot re-declare object [ScriptEditorDlg].
+tools/gui/colladaImport.ed.gui (2): Cannot re-declare object [ColladaImportDlg].
+tools/gui/colladaImport.ed.gui (1133): Cannot re-declare object [ColladaImportProgress].
+tools/gui/EditorLoadingGui.gui (2): Cannot re-declare object [EditorLoadingGui].
+tools/gui/GuiEaseEditDlg.ed.gui (0): Cannot re-declare object [GuiEaseEditDlg].
+tools/gui/uvEditor.ed.gui (1): Cannot re-declare object [UVEditorOverlay].
+Missing file: tools/gui/postFxManager.gui!
+tools/gui/assimpImport.ed.gui (2): Cannot re-declare object [AssimpImportDlg].
+tools/main.cs (112): Cannot re-declare object [EditorPluginSet].
+ % - Initializing Tools Base
+EventManager::registerEvent - event ProjectOpened already registered
+EventManager::registerEvent - event ProjectClosed already registered
+EventManager::registerEvent - event ProjectDeploy already registered
+EventManager::registerEvent - event ProjectFileAdded already registered
+EventManager::registerEvent - event ProjectFileRemoved already registered
+EventManager::registerEvent - event _ProjectCreate already registered
+EventManager::registerEvent - event _ProjectOpen already registered
+EventManager::registerEvent - event _ProjectClose already registered
+EventManager::registerEvent - event _ProjectAddFile already registered
+EventManager::registerEvent - event _ProjectRemoveFile already registered
+EventManager::registerEvent - event BeginDropFiles already registered
+EventManager::registerEvent - event DropFile already registered
+EventManager::registerEvent - event EndDropFiles already registered
+EventManager::registerEvent - event ClosePressed already registered
+EventManager::registerEvent - event BeginShutdown already registered
+EventManager::registerEvent - event FocusChanged already registered
+ % - Initializing Base Editor
+ % - Initializing World Editor
+tools/worldEditor/scripts/cursors.ed.cs (27): Cannot re-declare object [EditorHandCursor].
+tools/worldEditor/scripts/cursors.ed.cs (33): Cannot re-declare object [EditorRotateCursor].
+tools/worldEditor/scripts/cursors.ed.cs (39): Cannot re-declare object [EditorMoveCursor].
+tools/worldEditor/scripts/cursors.ed.cs (45): Cannot re-declare object [EditorArrowCursor].
+tools/worldEditor/scripts/cursors.ed.cs (51): Cannot re-declare object [EditorUpDownCursor].
+tools/worldEditor/scripts/cursors.ed.cs (56): Cannot re-declare object [EditorLeftRightCursor].
+tools/worldEditor/scripts/cursors.ed.cs (62): Cannot re-declare object [EditorDiagRightCursor].
+tools/worldEditor/scripts/cursors.ed.cs (68): Cannot re-declare object [EditorDiagLeftCursor].
+tools/worldEditor/scripts/cursors.ed.cs (0): Cannot re-declare object [EmptyControl].
+tools/worldEditor/gui/guiCreateNewTerrainGui.gui (2): Cannot re-declare object [CreateNewTerrainGui].
+tools/worldEditor/gui/GenericPromptDialog.ed.gui (0): Cannot re-declare object [GenericPromptDialog].
+tools/worldEditor/gui/guiTerrainImportGui.gui (2): Cannot re-declare object [TerrainImportGui].
+tools/worldEditor/gui/guiTerrainExportGui.gui (2): Cannot re-declare object [TerrainExportGui].
+tools/worldEditor/gui/EditorGui.ed.gui (2): Cannot re-declare object [EditorGui].
+tools/worldEditor/gui/EditorGui.ed.gui (0): Cannot re-declare object [CameraSpeedDropdownCtrlContainer].
+tools/worldEditor/gui/objectBuilderGui.ed.gui (2): Cannot re-declare object [ObjectBuilderGui].
+tools/worldEditor/gui/TerrainEditorVSettingsGui.ed.gui (0): Cannot re-declare object [TerrainEditorValuesSettingsGui].
+tools/worldEditor/gui/EditorChooseLevelGui.ed.gui (2): Cannot re-declare object [EditorChooseLevelGui].
+tools/worldEditor/gui/EditorChooseLevelGui.ed.gui (0): Cannot re-declare object [EditorChooseLevelContainer].
+tools/worldEditor/gui/VisibilityLayerWindow.ed.gui (0): Cannot re-declare object [VisibilityLayerContainer].
+tools/worldEditor/gui/ManageBookmarksWindow.ed.gui (0): Cannot re-declare object [ManageBookmarksContainer].
+tools/worldEditor/gui/ManageSFXParametersWindow.ed.gui (0): Cannot re-declare object [ManageSFXParametersContainer].
+tools/worldEditor/gui/TimeAdjustGui.ed.gui (2): Cannot re-declare object [TimeAdjustGui].
+tools/worldEditor/gui/AddFMODProjectDlg.ed.gui (0): Cannot re-declare object [AddFMODProjectDlg].
+tools/worldEditor/gui/SelectObjectsWindow.ed.gui (0): Cannot re-declare object [ESelectObjectsWindowContainer].
+tools/worldEditor/gui/ProceduralTerrainPainterGui.gui (2): Cannot re-declare object [ProceduralTerrainPainterGui].
+tools/worldEditor/gui/shadowViz.gui (0): Cannot re-declare object [AL_ShadowVizOverlayCtrl].
+tools/worldEditor/gui/probeBakeDlg.gui (0): Cannot re-declare object [ProbeBakeDlg].
+tools/worldEditor/scripts/lightViz.cs (23): Cannot re-declare object [AL_ColorBufferShader].
+tools/worldEditor/scripts/lightViz.cs (62): Cannot re-declare object [AL_SpecMapShader].
+tools/worldEditor/scripts/lightViz.cs (97): Cannot re-declare object [AL_DepthVisualizeState].
+tools/worldEditor/scripts/lightViz.cs (108): Cannot re-declare object [AL_DefaultVisualizeState].
+tools/worldEditor/scripts/lightViz.cs (124): Cannot re-declare object [AL_DepthVisualizeShader].
+tools/worldEditor/scripts/lightViz.cs (160): Cannot re-declare object [AL_GlowVisualizeShader].
+tools/worldEditor/scripts/lightViz.cs (181): Cannot re-declare object [AL_NormalsVisualizeShader].
+tools/worldEditor/scripts/lightViz.cs (217): Cannot re-declare object [AL_LightColorVisualizeShader].
+tools/worldEditor/scripts/lightViz.cs (252): Cannot re-declare object [AL_LightSpecularVisualizeShader].
+tools/worldEditor/scripts/lightViz.cs (377): Cannot re-declare object [ColorBlindnessVisualizeShader].
+tools/worldEditor/scripts/shadowViz.cs (23): Cannot re-declare object [AL_ShadowVisualizeShader].
+tools/worldEditor/scripts/shadowViz.cs (37): Cannot re-declare object [AL_ShadowVisualizeMaterial].
+tools/worldEditor/main.cs (78): Cannot re-declare object [WorldEditorPlugin].
+tools/worldEditor/main.cs (85): Cannot re-declare object [WorldEditorInspectorPlugin].
+tools/worldEditor/main.cs (91): Cannot re-declare object [TerrainEditorPlugin].
+tools/worldEditor/main.cs (97): Cannot re-declare object [TerrainPainterPlugin].
+tools/worldEditor/main.cs (103): Cannot re-declare object [MaterialEditorPlugin].
+ % - Initializing Asset Browser
+tools/assetBrowser/guis/assetBrowser.gui (0): Cannot re-declare object [AssetBrowser].
+tools/assetBrowser/guis/addModuleWindow.gui (0): Cannot re-declare object [AssetBrowser_AddModule].
+tools/assetBrowser/guis/gameObjectCreator.gui (0): Cannot re-declare object [GameObjectCreator].
+tools/assetBrowser/guis/newAsset.gui (0): Cannot re-declare object [AssetBrowser_newAsset].
+tools/assetBrowser/guis/newComponentAsset.gui (0): Cannot re-declare object [AssetBrowser_newComponentAsset].
+tools/assetBrowser/guis/editAsset.gui (0): Cannot re-declare object [AssetBrowser_editAsset].
+tools/assetBrowser/guis/assetImport.gui (0): Cannot re-declare object [AssetImportCtrl].
+tools/assetBrowser/guis/selectModule.gui (0): Cannot re-declare object [AssetBrowser_selectModule].
+tools/assetBrowser/guis/editModule.gui (0): Cannot re-declare object [AssetBrowser_editModule].
+Missing file: tools/assetBrowser/guis/importTemplateModules.gui!
+tools/assetBrowser/scripts/assetBrowser.cs (1): Cannot re-declare object [AssetBrowserPreviewCache].
+tools/assetBrowser/main.cs (72): Cannot re-declare object [AssetBrowserPlugin].
+Missing file: tools/componentEditor/scripts/stateMachineEditor.ed.cs!
+tools/componentEditor/gui/superToolTipDlg.ed.gui (0): Cannot re-declare object [SuperTooltipDlg].
+Missing file: tools/componentEditor/gui/stateMachineDlg.ed.gui!
+ % - Initializing Sketch Tool
+tools/convexEditor/convexEditorGui.gui (0): Cannot re-declare object [ConvexEditorGui].
+tools/convexEditor/convexEditorToolbar.ed.gui (0): Cannot re-declare object [ConvexEditorToolbar].
+tools/convexEditor/convexEditorSidebarGui.gui (0): Cannot re-declare object [ConvexEditorOptions].
+Missing file: tools/convexEditor/materials.cs!
+tools/convexEditor/main.cs (46): Cannot re-declare object [ConvexEditorPlugin].
+ - Initializing Datablock Editor
+tools/datablockEditor/DatablockEditorTreeWindow.ed.gui (0): Cannot re-declare object [DatablockEditorTreeWindow].
+tools/datablockEditor/DatablockEditorInspectorWindow.ed.gui (0): Cannot re-declare object [DatablockEditorInspectorWindow].
+tools/datablockEditor/DatablockEditorCreatePrompt.ed.gui (0): Cannot re-declare object [DatablockEditorCreatePrompt].
+tools/datablockEditor/main.cs (43): Cannot re-declare object [DatablockEditorPlugin].
+tools/datablockEditor/main.cs (49): Cannot re-declare object [UnlistedDatablocks].
+ % - Initializing Debugger
+tools/debugger/gui/breakConditionDlg.ed.gui (0): Cannot re-declare object [DebuggerBreakConditionDlg].
+tools/debugger/gui/connectDlg.ed.gui (0): Cannot re-declare object [DebuggerConnectDlg].
+tools/debugger/gui/editWatchDlg.ed.gui (0): Cannot re-declare object [DebuggerEditWatchDlg].
+tools/debugger/gui/findDlg.ed.gui (0): Cannot re-declare object [DebuggerFindDlg].
+tools/debugger/gui/debugger.ed.gui (0): Cannot re-declare object [DebuggerGui].
+tools/debugger/gui/watchDlg.ed.gui (0): Cannot re-declare object [DebuggerWatchDlg].
+ % - Initializing Decal Editor
+tools/decalEditor/decalEditorGui.gui (0): Cannot re-declare object [DecalEditorGui].
+tools/decalEditor/main.cs (43): Cannot re-declare object [DecalEditorPlugin].
+tools/decalEditor/main.cs (58): Cannot re-declare object [DecalPMan].
+ % - Initializing Forest Editor
+tools/forestEditor/forestEditorGui.gui (0): Cannot re-declare object [ForestEditorGui].
+tools/forestEditor/forestEditToolbar.ed.gui (2): Cannot re-declare object [ForestEditToolbar].
+tools/forestEditor/forestEditToolbar.ed.gui (348): Cannot re-declare object [ForestBrushSizeSliderCtrlContainer].
+tools/forestEditor/forestEditToolbar.ed.gui (378): Cannot re-declare object [ForestBrushPressureSliderCtrlContainer].
+tools/forestEditor/forestEditToolbar.ed.gui (0): Cannot re-declare object [ForestBrushHardnessSliderCtrlContainer].
+tools/forestEditor/main.cs (44): Cannot re-declare object [ForestEditorPlugin].
+tools/forestEditor/main.cs (50): Cannot re-declare object [ForestTools].
+ % - Initializing Gui Editor
+tools/guiEditor/gui/guiEditor.ed.gui (0): Cannot re-declare object [GuiEditorGui].
+tools/guiEditor/gui/guiEditorNewGuiDialog.ed.gui (0): Cannot re-declare object [GuiEditorNewGuiDialog].
+tools/guiEditor/gui/guiEditorPrefsDlg.ed.gui (0): Cannot re-declare object [GuiEditorPrefsDlg].
+tools/guiEditor/gui/guiEditorSelectDlg.ed.gui (0): Cannot re-declare object [GuiEditorSelectDlgContainer].
+tools/guiEditor/gui/EditorChooseGUI.ed.gui (0): Cannot re-declare object [EditorChooseGUI].
+ % - Initializing Material Editor
+tools/materialEditor/gui/guiMaterialPreviewWindow.ed.gui (0): Cannot re-declare object [MaterialEditorPreviewWindow].
+tools/materialEditor/gui/guiMaterialPreviewWindow.ed.gui (0): Cannot re-declare object [matEd_cubemapEditor].
+tools/materialEditor/gui/guiMaterialPreviewWindow.ed.gui (0): Cannot re-declare object [matEd_addCubemapWindow].
+tools/materialEditor/gui/guiMaterialPropertiesWindow.ed.gui (2): Cannot re-declare object [MaterialEditorGui].
+tools/materialEditor/gui/guiMaterialPropertiesWindow.ed.gui (0): Cannot re-declare object [matEdNonModalGroup].
+Missing file: tools/materialEditor/gui/materialInstancesView.ed.gui!
+Missing file: tools/materialEditor/scripts/materialInstanceView.ed.cs!
+ % - Initializing Mesh Road Editor
+tools/meshRoadEditor/meshRoadEditorGui.gui (0): Cannot re-declare object [MeshRoadEditorGui].
+tools/meshRoadEditor/meshRoadEditorToolbar.gui (1): Cannot re-declare object [MeshRoadEditorToolbar].
+tools/meshRoadEditor/meshRoadEditorToolbar.gui (265): Cannot re-declare object [MeshRoadDefaultWidthSliderCtrlContainer].
+tools/meshRoadEditor/meshRoadEditorToolbar.gui (0): Cannot re-declare object [MeshRoadDefaultDepthSliderCtrlContainer].
+tools/meshRoadEditor/main.cs (42): Cannot re-declare object [MeshRoadEditorPlugin].
+ % - Initializing Mission Area Editor
+tools/missionAreaEditor/missionAreaEditorGui.ed.gui (0): Cannot re-declare object [MissionAreaEditorGui].
+tools/missionAreaEditor/main.cs (40): Cannot re-declare object [MissionAreaEditorPlugin].
+ % - Initializing Navigation Editor
+tools/navEditor/NavEditorGui.gui (0): Cannot re-declare object [NavEditorGui].
+tools/navEditor/NavEditorToolbar.gui (0): Cannot re-declare object [NavEditorToolbar].
+tools/navEditor/NavEditorConsoleDlg.gui (2): Cannot re-declare object [NavEditorConsoleDlg].
+tools/navEditor/NavEditorConsoleDlg.gui (109): Cannot re-declare object [NavEditorConsoleListener].
+tools/navEditor/CreateNewNavMeshDlg.gui (2): Cannot re-declare object [CreateNewNavMeshDlg].
+tools/navEditor/main.cs (56): Cannot re-declare object [NavEditorPlugin].
+ % - Initializing Particle Editor
+tools/particleEditor/ParticleEditor.ed.gui (0): Cannot re-declare object [PE_Window].
+tools/particleEditor/main.cs (41): Cannot re-declare object [ParticleEditorPlugin].
+tools/particleEditor/main.cs (55): Cannot re-declare object [ParticleEditor].
+tools/particleEditor/main.cs (57): Cannot re-declare object [PE_EmitterSaver].
+tools/particleEditor/main.cs (58): Cannot re-declare object [PE_ParticleSaver].
+tools/particleEditor/main.cs (60): Cannot re-declare object [PE_UnlistedParticles].
+tools/particleEditor/main.cs (61): Cannot re-declare object [PE_UnlistedEmitters].
+ % - Initializing Physics Tools
+No physics plugin exists.
+ % - Initializing River Editor
+tools/riverEditor/RiverEditorGui.gui (0): Cannot re-declare object [RiverEditorGui].
+tools/riverEditor/RiverEditorToolbar.gui (1): Cannot re-declare object [RiverEditorToolbar].
+tools/riverEditor/RiverEditorToolbar.gui (266): Cannot re-declare object [RiverDefaultWidthSliderCtrlContainer].
+tools/riverEditor/RiverEditorToolbar.gui (0): Cannot re-declare object [RiverDefaultDepthSliderCtrlContainer].
+tools/riverEditor/main.cs (43): Cannot re-declare object [RiverEditorPlugin].
+ - Initializing Road and Path Editor
+tools/roadEditor/RoadEditorGui.gui (0): Cannot re-declare object [RoadEditorGui].
+tools/roadEditor/RoadEditorToolbar.gui (1): Cannot re-declare object [RoadEditorToolbar].
+tools/roadEditor/RoadEditorToolbar.gui (0): Cannot re-declare object [RoadDefaultWidthSliderCtrlContainer].
+tools/roadEditor/main.cs (43): Cannot re-declare object [RoadEditorPlugin].
+ % - Initializing Shape Editor
+tools/shapeEditor/gui/shapeEdPreviewWindow.ed.gui (0): Cannot re-declare object [ShapeEdPreviewGui].
+tools/shapeEditor/gui/shapeEdAnimWindow.ed.gui (0): Cannot re-declare object [ShapeEdAnimWindow].
+tools/shapeEditor/gui/shapeEdAdvancedWindow.ed.gui (2): Cannot re-declare object [ShapeEdAdvancedWindow].
+tools/shapeEditor/gui/shapeEdAdvancedWindow.ed.gui (1763): Cannot re-declare object [ShapeEdWaitGui].
+tools/shapeEditor/gui/ShapeEditorToolbar.ed.gui (0): Cannot re-declare object [ShapeEditorToolbar].
+tools/shapeEditor/gui/shapeEdSelectWindow.ed.gui (0): Cannot re-declare object [ShapeEdSelectWindow].
+tools/shapeEditor/gui/shapeEdPropWindow.ed.gui (2): Cannot re-declare object [ShapeEdPropWindow].
+tools/shapeEditor/gui/shapeEdPropWindow.ed.gui (1437): Cannot re-declare object [GenImposterGui].
+tools/shapeEditor/scripts/shapeEditorHints.ed.cs (28): Cannot re-declare object [ShapeHintControls].
+tools/shapeEditor/scripts/shapeEditorHints.ed.cs (0): Cannot re-declare object [ShapeHintGroup].
+tools/shapeEditor/main.cs (60): Cannot re-declare object [ShapeEditorPlugin].
+tools/VerveEditor/GUI/VerveEditorGroupBuilder.gui (2): Cannot re-declare object [VerveEditorGroupBuilderGUI].
+tools/VerveEditor/GUI/VerveEditorImportPathNodes.gui (0): Cannot re-declare object [VerveEditorImportPathNodesGUI].
+tools/VerveEditor/Scripts/Plugin.cs (7): Cannot re-declare object [VerveEditorPlugin].
+tools/VerveEditor/Scripts/EditorHistory.cs (6): Cannot re-declare object [VerveEditorHistoryManager].
+tools/VerveEditor/Scripts/Inspector/Lists.cs (0): Cannot re-declare object [VEditorObjectPropertySet].
+tools/VerveEditor/Scripts/Controller/VController.cs (6): Cannot re-declare object [VControllerPropertyList].
+tools/VerveEditor/Scripts/Groups/VGroup.cs (6): Cannot re-declare object [VGroupPropertyList].
+tools/VerveEditor/Scripts/Groups/VCameraGroup.cs (6): Cannot re-declare object [VCameraGroupPropertyList].
+tools/VerveEditor/Scripts/Groups/VDirectorGroup.cs (6): Cannot re-declare object [VDirectorGroupPropertyList].
+tools/VerveEditor/Scripts/Groups/VLightObjectGroup.cs (6): Cannot re-declare object [VLightObjectGroupPropertyList].
+tools/VerveEditor/Scripts/Groups/VParticleEffectGroup.cs (6): Cannot re-declare object [VParticleEffectGroupPropertyList].
+tools/VerveEditor/Scripts/Groups/VSceneObjectGroup.cs (6): Cannot re-declare object [VSceneObjectGroupPropertyList].
+tools/VerveEditor/Scripts/Groups/VSpawnSphereGroup.cs (6): Cannot re-declare object [VSpawnSphereGroupPropertyList].
+tools/VerveEditor/Scripts/Tracks/VTrack.cs (6): Cannot re-declare object [VTrackPropertyList].
+tools/VerveEditor/Scripts/Tracks/VCameraShakeTrack.cs (6): Cannot re-declare object [VCameraShakeTrackPropertyList].
+tools/VerveEditor/Scripts/Tracks/VDirectorTrack.cs (6): Cannot re-declare object [VDirectorTrackPropertyList].
+tools/VerveEditor/Scripts/Tracks/VFadeTrack.cs (6): Cannot re-declare object [VFadeTrackPropertyList].
+tools/VerveEditor/Scripts/Tracks/VLightObjectAnimationTrack.cs (6): Cannot re-declare object [VLightObjectAnimationTrackPropertyList].
+tools/VerveEditor/Scripts/Tracks/VLightObjectToggleTrack.cs (6): Cannot re-declare object [VLightObjectToggleTrackPropertyList].
+tools/VerveEditor/Scripts/Tracks/VMotionTrack.cs (6): Cannot re-declare object [VMotionTrackPropertyList].
+tools/VerveEditor/Scripts/Tracks/VParticleEffectToggleTrack.cs (6): Cannot re-declare object [VParticleEffectToggleTrackPropertyList].
+tools/VerveEditor/Scripts/Tracks/VPostEffectToggleTrack.cs (6): Cannot re-declare object [VPostEffectToggleTrackPropertyList].
+tools/VerveEditor/Scripts/Tracks/VSceneJumpTrack.cs (6): Cannot re-declare object [VSceneJumpTrackPropertyList].
+tools/VerveEditor/Scripts/Tracks/VScriptEventTrack.cs (6): Cannot re-declare object [VScriptEventTrackPropertyList].
+tools/VerveEditor/Scripts/Tracks/VShapeAnimationTrack.cs (6): Cannot re-declare object [VShapeAnimationTrackPropertyList].
+tools/VerveEditor/Scripts/Tracks/VSlowMoTrack.cs (6): Cannot re-declare object [VSlowMoTrackPropertyList].
+tools/VerveEditor/Scripts/Tracks/VSoundEffectTrack.cs (6): Cannot re-declare object [VSoundEffectTrackPropertyList].
+tools/VerveEditor/Scripts/Tracks/VSpawnSphereSpawnTargetTrack.cs (6): Cannot re-declare object [VSpawnSphereSpawnTargetTrackPropertyList].
+tools/VerveEditor/Scripts/Events/VEvent.cs (6): Cannot re-declare object [VEventPropertyList].
+tools/VerveEditor/Scripts/Events/VEvent.cs (15): Cannot re-declare object [VEventDPropertyList].
+tools/VerveEditor/Scripts/Events/VCameraShakeEvent.cs (0): Cannot re-declare object [VCameraShakeEventPropertyList].
+tools/VerveEditor/Scripts/Events/VDirectorEvent.cs (6): Cannot re-declare object [VDirectorEventPropertyList].
+tools/VerveEditor/Scripts/Events/VFadeEvent.cs (6): Cannot re-declare object [VFadeEventPropertyList].
+tools/VerveEditor/Scripts/Events/VLightObjectAnimationEvent.cs (6): Cannot re-declare object [VLightObjectAnimationEventPropertyList].
+tools/VerveEditor/Scripts/Events/VLightObjectToggleEvent.cs (0): Cannot re-declare object [VLightObjectToggleEventPropertyList].
+tools/VerveEditor/Scripts/Events/VMotionEvent.cs (6): Cannot re-declare object [VMotionEventPropertyList].
+tools/VerveEditor/Scripts/Events/VParticleEffectToggleEvent.cs (0): Cannot re-declare object [VParticleEffectToggleEventPropertyList].
+tools/VerveEditor/Scripts/Events/VPostEffectToggleEvent.cs (0): Cannot re-declare object [VPostEffectToggleEventPropertyList].
+tools/VerveEditor/Scripts/Events/VSceneJumpEvent.cs (0): Cannot re-declare object [VSceneJumpEventPropertyList].
+tools/VerveEditor/Scripts/Events/VScriptEvent.cs (0): Cannot re-declare object [VScriptEventPropertyList].
+tools/VerveEditor/Scripts/Events/VShapeAnimationEvent.cs (6): Cannot re-declare object [VShapeAnimationEventPropertyList].
+tools/VerveEditor/Scripts/Events/VSlowMoEvent.cs (0): Cannot re-declare object [VSlowMoEventPropertyList].
+tools/VerveEditor/Scripts/Events/VSoundEffectEvent.cs (6): Cannot re-declare object [VSoundEffectEventPropertyList].
+tools/VerveEditor/Scripts/Events/VSpawnSphereSpawnTargetEvent.cs (0): Cannot re-declare object [VSpawnSphereSpawnTargetEventPropertyList].
+Missing file: tools/Controller/main.cs!
+Missing file: tools/Events/main.cs!
+Missing file: tools/Groups/main.cs!
+Missing file: tools/Inspector/main.cs!
+Missing file: tools/Fields/main.cs!
+Missing file: tools/Tracks/main.cs!
+Missing file: tools/Torque/main.cs!
+tools/VPathEditor/GUI/VPathEditor.gui (6): Cannot re-declare object [EVPathEditor].
+tools/VPathEditor/Scripts/Plugin.cs (6): Cannot re-declare object [VPathEditorPlugin].
+Module Manager: Found module: 'C:/Development/Torque4.0Preview/My Projects/vSide/game/tools/Tools.module' but it is in a module group 'tools' which has already been loaded.
+Module Manager: Found module: 'C:/Development/Torque4.0Preview/My Projects/vSide/game/tools/MainEditor/MainEditor.module' but it is in a module group 'tools' which has already been loaded.
+Module Manager: Found module: 'C:/Development/Torque4.0Preview/My Projects/vSide/game/tools/Tools.module' but it is in a module group 'tools' which has already been loaded.
+Module Manager: Found module: 'C:/Development/Torque4.0Preview/My Projects/vSide/game/tools/MainEditor/MainEditor.module' but it is in a module group 'tools' which has already been loaded.
+Module Manager: Cannot load group 'tools' as it is already loaded.
+Time spent in toggleEditor() : 0.005 s
+C:/Users/Tony/Documents
+Exporting server prefs...
+Resource<TSShape>::create - Error reading 'data/Verve/art/shapes/actors/Soldier/soldier_rigged.DAE'
+Failed to create resource: [data/Verve/art/shapes/actors/Soldier/soldier_rigged.DAE]
+data/Verve/scripts/datablocks/verve/VerveActorData.cs (0): preload failed for VSoldierActorData: ShapeBaseData: Couldn't load shape "data/Verve/art/shapes/actors/Soldier/soldier_rigged.DAE".
+*** LOADING MISSION: tools/levels/BlankRoom.mis
+*** Stage 1 load
+*** Stage 2 load
+*** Mission loaded
+Connect request from: IP:0.0.0.0
+Connection established 22884
+CADD: 22885 local
+*** Sending mission load to client: tools/levels/BlankRoom.mis
+Mapping string: ServerMessage to index: 0
+Mapping string: MsgConnectionError to index: 1
+onServerMessage: 
+Mapping string: MsgLoadInfo to index: 2
+onServerMessage: 
+Mapping string: MsgLoadDescripition to index: 3
+onServerMessage: 
+Mapping string: MsgLoadInfoDone to index: 4
+onServerMessage: 
+Mapping string: MissionStartPhase1 to index: 5
+*** New Mission: tools/levels/BlankRoom.mis
+*** Phase 1: Download Datablocks & Targets
+% - PostFX Manager - Executing tools/levels/BlankRoom.postfxpreset.cs
+% - PostFX Manager - Applying from preset
+HDR FORMAT: GFXFormatR16G16B16A16F
+% - PostFX Manager - PostFX enabled
+Mapping string: MissionStartPhase1Ack to index: 0
+Mapping string: MissionStartPhase2 to index: 6
+*** Phase 2: Download Ghost Objects
+Mapping string: MissionStartPhase2Ack to index: 1
+[Material::mapMaterial] - Cannot map unnamed Material
+[Material::mapMaterial] - Cannot map unnamed Material
+Ghost Always objects received.
+Mapping string: MissionStartPhase3 to index: 7
+Client Replication Startup has Happened!
+fxFoliageReplicator - replicated client foliage for 0 objects
+*** Phase 3: Mission Lighting
+Mission lighting done
+Mapping string: MissionStartPhase3Ack to index: 2
+Set::add: Object "" doesn't exist
+Mapping string: MissionStart to index: 8
+*** Initial Control Object
+Failed to load profile bitmap (tools/gui/menu-fullborder)
+Could not create a description for binding: +
+Could not create a description for binding: +
+tools/convexEditor/main.cs (95): Unknown method ESettingsWindow.addTabPage Namespace List: ESettingsWindow -> GuiWindowCollapseCtrl -> GuiWindowCtrl -> GuiContainer -> GuiControl -> SimGroup -> SimSet -> SimObject
+tools/meshRoadEditor/main.cs (85): Unknown method ESettingsWindow.addTabPage Namespace List: ESettingsWindow -> GuiWindowCollapseCtrl -> GuiWindowCtrl -> GuiContainer -> GuiControl -> SimGroup -> SimSet -> SimObject
+tools/navEditor/main.cs (92): Unknown method ESettingsWindow.addTabPage Namespace List: ESettingsWindow -> GuiWindowCollapseCtrl -> GuiWindowCtrl -> GuiContainer -> GuiControl -> SimGroup -> SimSet -> SimObject
+tools/riverEditor/main.cs (86): Unknown method ESettingsWindow.addTabPage Namespace List: ESettingsWindow -> GuiWindowCollapseCtrl -> GuiWindowCtrl -> GuiContainer -> GuiControl -> SimGroup -> SimSet -> SimObject
+tools/roadEditor/main.cs (85): Unknown method ESettingsWindow.addTabPage Namespace List: ESettingsWindow -> GuiWindowCollapseCtrl -> GuiWindowCtrl -> GuiContainer -> GuiControl -> SimGroup -> SimSet -> SimObject
+tools/shapeEditor/main.cs (124): Unknown method ESettingsWindow.addTabPage Namespace List: ESettingsWindow -> GuiWindowCollapseCtrl -> GuiWindowCtrl -> GuiContainer -> GuiControl -> SimGroup -> SimSet -> SimObject
+Failed to load profile bitmap (tools/gui/menubar)
+GuiTreeViewCtrl::markItem: invalid item id: -1!
+GuiBitmapBorderCtrl: Could not construct bitmap array for profile 'ToolsGuiTabBorderProfile'
+GuiBitmapBorderCtrl: Could not construct bitmap array for profile 'ToolsGuiTabBorderProfile'
+tools/worldEditor/scripts/EditorGui.ed.cs (597): Unable to find object: 'ECameraSettingsPage' attempting to call function 'init'
+Time spent in toggleEditor() : 1.443 s
+*** Control Object Changed
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Set Theme/fieldTextSELColor to be 11 104 217 255
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Set Theme/windowBackgroundColor to be 54 57 63 255
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Window focus status changed: focus: 1
+Set::remove: Object "22926" does not exist in set
+Module Manager: Cannot unload explicit module Id 'Game' as it does not exist.
+Set Theme/tabsColor to be 32 34 37 255
+*** ENDING MISSION
+core/clientServer/scripts/server/levelInfo.cs (143): Unable to find object: '' attempting to call function 'getCount'
+C:/Users/Tony/Documents
+Exporting server prefs...
+Exporting client prefs
+C:/Users/Tony/Documents
+Exporting server prefs
